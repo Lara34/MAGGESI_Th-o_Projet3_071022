@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .arrow_left {
+        left: 30px;
+    }
+
+    .logo_ohmyfood {
+        width: 1160px;
+    }
+
+    .conteneur_menu {
+        width: 992px;
+    }
+
+
+}

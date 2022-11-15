@@ -1,0 +1,91 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        width: 992px;
+    }
+
+    .localisation_dot_map {
+        font-size: 30px;
+    }
+
+    .dot_map {
+        margin-right: 20px;
+    }
+
+    .conteneur_description_restaurant {
+        padding-left: 0px;
+    }
+
+    .conteneur_fonctionnement {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 70px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .conteneur_mobile,
+    .conteneur_bars,
+    .conteneur_store {
+        font-size: 40px;
+        padding: 40px;
+        padding-left: 150px;
+        margin-right: 0px;
+    }
+
+    .numérotation {
+        padding: 5px 15px 5px 15px;
+        margin-left: -175px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        padding: 40px;
+        font-size: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin: 150px;
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+
+    h4,
+    h5 {
+        margin-left: 70px;
+    }
+
+    .icone_mobile,
+    .icone_bars,
+    .icone_store {
+        font-size: 45px;
+        margin-left: -80px;
+    }
+
+    .conteneur_menu {
+        width: 430px;
+        justify-content: space-between;
+    }
+
+    .icone_heart {
+        margin-left: 360px;
+    }
+
+    .icone_heart_fill {
+        margin-top: 0px;
+        margin-left: -50px;
+    }
+
+    .cadre_nouveau {
+        right: -240px;
+        bottom: 430px;
+    }
+
+}

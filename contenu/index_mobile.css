@@ -1,0 +1,228 @@
+@media screen and (min-width: 320px) and (max-width:767px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 767px;
+        margin: auto;
+        font-family: 'Roboto';
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo_header {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .logo_ohmyfood {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(235, 235, 235);
+        box-shadow: 0px 10px 10px rgb(185, 185, 185);
+        padding: 30px;
+        position: relative;
+    }
+
+    .localisation_dot_map {
+        padding: 40px;
+        font-size: 34px;
+        display: flex;
+        justify-content: center;
+        background-color: lightgrey;
+    }
+
+    .dot_map {
+        margin-right: 40px;
+    }
+
+    h1 {
+        font-size: 52px;
+        margin-top: 0px;
+    }
+
+    h2 {
+        font-size: 35px;
+        font-weight: 100;
+    }
+
+    h3 {
+        font-size: 40px;
+        background: linear-gradient(346deg, #9356dc, #FF79DA);
+        border-radius: 111px;
+        color: white;
+        padding: 30px;
+        box-shadow: inset -50px -50px 120px #9356dc, 5px 10px 20px rgb(185, 185, 185);
+        margin: 0px;
+        margin-right: 0px;
+        margin-left: 60px;
+        width: 450px;
+    }
+
+    h4 {
+        font-size: 50px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+
+    h5 {
+        font-size: 50px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    .conteneur_mobile:hover,
+    .conteneur_bars:hover,
+    .conteneur_store:hover {
+        background-color: #efe1ff;
+    }
+
+    .icone_mobile:hover,
+    .icone_bars:hover,
+    .icone_store:hover {
+        color: #9356dc;
+    }
+
+    .conteneur_fonctionnement {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px;
+        padding-top: 0px;
+    }
+
+    .numérotation {
+        background-color: #9356dc;
+        border-radius: 25px;
+        color: white;
+        padding: 5px 15px 5px 15px;
+        position: absolute;
+        margin-left: -190px;
+    }
+
+    .icone_mobile,
+    .icone_bars,
+    .icone_store {
+        color: gray;
+        font-size: 40px;
+        position: absolute;
+        margin-left: -90px;
+    }
+
+    .conteneur_mobile,
+    .conteneur_bars,
+    .conteneur_store {
+        background-color: rgb(235, 235, 235);
+        border-radius: 50px;
+        font-size: 30px;
+        margin-bottom: 50px;
+        padding: 50px;
+        padding-left: 170px;
+        font-weight: bolder;
+        box-shadow: 10px 15px 15px rgb(185, 185, 185);
+        margin-right: 0px;
+    }
+
+    .conteneur_description_restaurant {
+        text-align: center;
+        background-color: rgb(235, 235, 235);
+        padding: 30px 80px 30px 80px;
+    }
+
+    .conteneur_restaurant {
+        background-color: rgb(235, 235, 235);
+        padding: 80px 40px 80px 40px;
+        margin-top: -30px;
+    }
+
+    .conteneur_menu {
+        background-color: white;
+        display: flex;
+        max-height: 630px;
+        flex-direction: column;
+        border-radius: 25px;
+        margin-bottom: 40px;
+        box-shadow: 10px 10px 15px #b1b1b1;
+    }
+
+    .conteneur_menu_heart {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu_image {
+        max-width: 767px;
+        border-radius: 25px;
+        object-fit: cover;
+        border-end-start-radius: 0px;
+        border-end-end-radius: 0px;
+    }
+
+    .menu_nom,
+    .menu_ville {
+        margin-left: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .menu_nom {
+        font-size: 40px;
+        font-weight: bolder;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .menu_ville {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .cadre_nouveau {
+        background: #99E2D0;
+        font-size: 30px;
+        border-radius: 5px;
+        color: #4a9381;
+        position: relative;
+    }
+
+    footer {
+        background-color: rgb(48, 48, 48);
+    }
+
+    ol {
+        padding: 30px;
+        padding-bottom: 70px;
+    }
+
+    .logo_footer {
+        font-size: 30px;
+        color: white;
+        font-family: 'Shrikhand';
+        margin-bottom: 40px;
+    }
+
+    li {
+        font-size: 28px;
+        list-style-type: none;
+        color: white;
+        margin: 20px;
+    }
+
+    .email {
+        color: white;
+    }
+
+    .utensils {
+        margin-right: 40px;
+    }
+
+    .handshake {
+        margin-right: 30px;
+    }
+
+}
