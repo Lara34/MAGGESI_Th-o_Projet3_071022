@@ -1,0 +1,199 @@
+@media screen and (min-width: 320px) and (max-width:767px) {
+
+    @font-face {
+        font-family: 'Roboto', 'Shrikhand';
+    }
+
+    body {
+        margin: auto;
+        font-family: 'Roboto';
+    }
+
+    header {
+        width: 767px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .arrow_left {
+        position: absolute;
+        left: 30px;
+        font-size: 50px;
+    }
+
+    .logo_header {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .logo_ohmyfood {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(235, 235, 235);
+        padding: 20px;
+    }
+
+    .icone_heart_fill {
+        display: none;
+    }
+
+    .icone_heart_fill:hover {
+        visibility: visible;
+        font-size: 50px;
+        background-color: #FF79DA;
+    }
+
+    .icone_heart {
+        color: gray;
+        font-size: 50px;
+    }
+
+    #position_menu_footer {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        max-width: 767px;
+        top: 500px;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin: 0px;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-left: 30px;
+        border: 5px #99E2D0 solid;
+        border-top: 3px;
+        border-right: 3px;
+        border-left: 3px;
+        margin-right: 637px;
+    }
+
+    h3 {
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .menu_image {
+        max-width: 767px;
+    }
+
+    #conteneur_menu {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(235, 235, 235);
+        border-radius: 80px;
+        padding-top: 20px;
+        margin-left: 0px;
+        max-width: 767px;
+        border-end-end-radius: 0px;
+        border-end-start-radius: 0px;
+    }
+
+    .conteneur_titre_h1 {
+        width: 700px;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Shrikhand';
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+    .selection_menu {
+        background-color: white;
+        border-radius: 25px;
+        margin: 30px;
+        box-shadow: 5px 5px 10px rgb(185, 185, 185);
+        max-width: none;
+    }
+
+    .cadre_h3 {
+        border-radius: 60px;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 70px;
+        margin-bottom: 130px;
+        background: linear-gradient(346deg, #9356dc, #FF79DA);
+        box-shadow: inset -50px -50px 120px #9356dc, 5px 10px 20px rgb(185 185 185);
+        width: -webkit-fill-available;
+    }
+
+    .conteneur_entrées,
+    .conteneur_plats,
+    .conteneur_desserts {
+        width: 767px;
+    }
+
+    .nom_plat,
+    .accompagnements {
+        margin: 0px;
+    }
+
+    .nom_plat {
+        font-size: 30px;
+        margin-bottom: 5px;
+        font-weight: bolder;
+    }
+
+    .accompagnements {
+        font-size: 25px;
+    }
+
+    .prix {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .accompagnements_prix {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer {
+        background-color: rgb(48, 48, 48);
+        top: 2580px;
+        width: 767px;
+        z-index: 1;
+    }
+
+    ol {
+        padding: 30px;
+        padding-bottom: 70px;
+    }
+
+    .logo_footer {
+        font-size: 30px;
+        color: white;
+        font-family: 'Shrikhand';
+        margin-bottom: 40px;
+    }
+
+    li {
+        font-size: 28px;
+        list-style-type: none;
+        color: white;
+        margin: 20px;
+    }
+
+    .email {
+        color: white;
+    }
+
+    .utensils {
+        margin-right: 40px;
+    }
+
+    .handshake {
+        margin-right: 30px;
+    }
+
+}

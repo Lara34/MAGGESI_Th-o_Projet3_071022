@@ -1,0 +1,328 @@
+@font-face {
+    font-family: 'Roboto', 'Shrikhand';
+    src: url('Roboto') format('woff');
+}
+
+.selection_menu:hover .menu-item_check {
+    margin-right: 25px;
+    transition: all 0.5s;
+}
+
+.menu-item_check {
+    transition: 0.5s;
+}
+
+.selection_menu:hover .icone_check {
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+
+.selection_menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 25px;
+    margin: 30px;
+    box-shadow: 5px 5px 10px rgb(185, 185, 185);
+    max-width: 435px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.delay_0 {
+    animation: appear 800ms;
+    animation-delay: 100ms;
+}
+
+.delay_1 {
+    animation: appear 800ms;
+    animation-delay: 150ms;
+}
+
+.delay_2 {
+    animation: appear 800ms;
+    animation-delay: 200ms;
+}
+
+.delay_3 {
+    animation: appear 800ms;
+    animation-delay: 250ms;
+}
+
+.delay_4 {
+    animation: appear 800ms;
+    animation-delay: 300ms;
+}
+
+.delay_5 {
+    animation: appear 800ms;
+    animation-delay: 350ms;
+}
+
+.delay_6 {
+    animation: appear 800ms;
+    animation-delay: 400ms;
+}
+
+.delay_7 {
+    animation: appear 800ms;
+    animation-delay: 450ms;
+}
+
+.delay_8 {
+    animation: appear 800ms;
+    animation-delay: 500ms;
+}
+
+.delay_9 {
+    animation: appear 800ms;
+    animation-delay: 550ms;
+}
+
+@keyframes appear {
+    from {
+        transform: scale(0);
+        transform:translateY(50%);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+body {
+    margin: auto;
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo_ohmyfood {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    position: relative;
+}
+
+.arrow_left {
+    font-size: 50px;
+    position: absolute;
+    left: 20px;
+}
+
+.logo_header {
+    width: 300px;
+}
+
+.conteneur_titre_h1 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Shrikhand';
+    justify-content: space-between;
+    padding: 30px;
+    width: 1200px;
+}
+
+.icone_heart,
+.icone_heart_fill {
+    position: absolute;
+}
+
+.icone_heart {
+    color: gray;
+    font-size: 50px;
+    right: 60px;
+}
+
+.icone_heart:hover {
+    color: transparent;
+    transition: 1s;
+}
+
+.icone_heart_fill {
+    opacity: 0;
+    left: 0px;
+}
+
+.icone_heart:hover .icone_heart_fill {
+    opacity: 1;
+    font-size: 50px;
+    background: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(#9356dc 30%, #FF79DA);
+    transition: 600ms 0.2s;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0px;
+}
+
+h2 {
+    width: 100px;
+    font-size: 40px;
+    margin-left: 30px;
+    border: 5px #99E2D0 solid;
+    border-top: 3px;
+    border-right: 3px;
+    border-left: 3px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+#conteneur_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+    border-radius: 80px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    position: absolute;
+    margin-left: 25%;
+    max-width: 1200px;
+    top: 600px;
+}
+
+.cadre_h3 {
+    border-radius: 60px;
+    width: 400px;
+    background: linear-gradient(346deg, #9356dc, #FF79DA);
+    box-shadow: inset -50px -50px 120px #9356dc, 5px 10px 20px rgb(185 185 185);
+    padding: 3px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.conteneur_desserts {
+    margin-bottom: 50px;
+}
+
+.conteneur_entrées,
+.conteneur_plats,
+.conteneur_desserts {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.menu_image {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.nom_plat,
+.accompagnements,
+.prix {
+    margin: 0px;
+}
+
+.nom_plat,
+.accompagnements {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.nom_plat {
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.accompagnements {
+    font-size: 20px;
+}
+
+.prix_item_check {
+    display: flex;
+    flex-direction: row;
+    left: 25px;
+    position: relative;
+}
+
+.prix {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 60px;
+    right: 25px;
+    position: relative;
+}
+
+.menu-item_check {
+    background-color: #99E2D0;
+    border-end-end-radius: 25px;
+    border-start-end-radius: 25px;
+    margin-right: -75px;
+}
+
+.icone_check {
+    rotate: -180deg;
+    font-size: 20px;
+    color: #99E2D0;
+    background-color: white;
+    border-radius: 25px;
+    margin: 30px;
+    padding: 10px;
+}
+
+.accompagnements_prix {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+footer {
+    background-color: rgb(48, 48, 48);
+    position: relative;
+    top: 1600px;
+    z-index: -1;
+}
+
+ol {
+    padding: 30px;
+    padding-bottom: 70px;
+}
+
+.logo_footer {
+    font-size: 30px;
+    color: white;
+    font-family: 'Shrikhand';
+    margin-bottom: 40px;
+}
+
+li {
+    font-size: 28px;
+    list-style-type: none;
+    color: white;
+    margin: 20px;
+}
+
+.email {
+    color: white;
+}
+
+.utensils {
+    margin-right: 40px;
+}
+
+.handshake {
+    margin-right: 30px;
+}
